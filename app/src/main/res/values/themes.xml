@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Atha2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Atha2" parent="Base.Theme.Atha2" />
+
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
+<!--        <item name="colorPrimary">#D5A021</item>-->
+<!--        <item name="colorPrimaryVariant">#B38619</item>-->
+<!--        <item name="colorOnPrimary">#212121</item>-->
+<!--        <item name="android:colorBackground">#212121</item>-->
+<!--        <item name="colorSurface">#212121</item>-->
+<!--        <item name="colorOnSurface">#FFFFFF</item>-->
+<!--        <item name="android:fontFamily">@font/inter_regular</item>-->
+<!--    </style>-->
+</resources>

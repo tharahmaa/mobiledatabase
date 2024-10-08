@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Database Atha"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxStrokeColor="#FFFFFF"
+            app:hintTextColor="#D5A021"
+            app:boxStrokeWidth="2dp"
+            android:textColorHint="#CCCCCC"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:fontFamily="sans-serif"
+                android:textColor="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:boxStrokeColor="#FFFFFF"
+            app:hintTextColor="#D5A021"
+            app:boxStrokeWidth="2dp"
+            android:textColorHint="#CCCCCC"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:fontFamily="sans-serif"
+                android:textColor="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:boxStrokeColor="#FFFFFF"
+            app:hintTextColor="#D5A021"
+            app:boxStrokeWidth="2dp"
+            android:textColorHint="#CCCCCC"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editText_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NRP"
+                android:inputType="number"
+                android:fontFamily="sans-serif"
+                android:textColor="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Add Data"
+            android:textColor="#212121"
+            android:fontFamily="sans-serif-medium"
+            app:backgroundTint="#D5A021"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="View All"
+            android:textColor="#D5A021"
+            android:fontFamily="sans-serif-medium"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="#D5A021"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Update"
+            android:textColor="#212121"
+            android:fontFamily="sans-serif-medium"
+            app:backgroundTint="#D5A021"
+            app:rippleColor="#80FFFFFF"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="#D5A021"
+            android:fontFamily="sans-serif-medium"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="#D5A021"/>
+
+    </LinearLayout>
+</ScrollView>
